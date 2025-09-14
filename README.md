@@ -18,7 +18,7 @@ A personal portfolio built with **Next.js** and **React** to showcase my project
 ## Getting Started
 
 ```bash
-git clone https://github.com/username/portfolio.git
+git https://github.com/bahrulajisantoso/my-portfolio.git
 cd portfolio
 npm install
 npm run dev
