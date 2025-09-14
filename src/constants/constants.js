@@ -7,30 +7,29 @@ export const projects = [
       "images/arah-kita.png",
     tags: ["Flutter", "http", "Get", "PHP Backend"],
     visit: null,
-    source: "",
-    id: 52,
+    source: "https://github.com/bahrulajisantoso/ArahKitaMobile",
+    id: 1,
   },
   {
     title: "Milky Way",
-    description:
-      "A web 3.0 platform on the Solana blockchain for hosting tournaments, enabling game sponsorships, and providing instant payouts for games.",
+    description: "MilkyWay is a Android application to help troubled mothers fulfill the need to give babies their needed breastmilk. By gathering willing mothers who are willing to be a donor of breastmilk. We can help babies to fulfill their needs of breastmilk, especially on the exclusive breastfeeding necessity, thus helping many mothers in their needs.",
     image:
       "images/milky-way.png",
-    tags: ["Kotlin", "AndroidX", "Material Design", "Firebase Auth", "Retrofit", "Google Maps", "MVVM Pattern",],
+    tags: ["Kotlin", "AndroidX", "Material Design", "Firebase Auth", "Retrofit", "Google Maps", "MVVM",],
     visit: null,
-    source: "",
-    id: 42,
+    source: "https://github.com/bahrulajisantoso/MilkyWay",
+    id: 2,
   },
   {
     title: "Hotel Recommendation",
     description:
-      "The Partycade offers unique games for many occasions. Such as Birthday Dinners, Baby Showers, Bridal Showers and many more. You’ll get to enjoy a friendly fun competition with your loved ones all from your smart device. Can’t make it to the event? No worries, you can join the game room wherever you are.",
+      "Hotel Recommendation Application is an Android application for my bachelor thesis that uses content based filtering algorithm and haversine formula in determining hotel recommendations based on the location selected by the user and the text entered by the user.",
     image:
       "images/hotel-recommendation.png",
-    tags: ["Kotlin", "AndroidX", "Material Design", "Firebase Auth", "Retrofit", "Google Maps", "MVVM Pattern", "Speech Recognizer", "Python", "Flask"],
-    source: "",
+    tags: ["Kotlin", "AndroidX", "Material Design", "Firebase Auth", "Retrofit", "Google Maps", "MVVM", "Speech Recognizer", "Python", "Flask"],
+    source: "https://github.com/bahrulajisantoso/RokemendasiHotel",
     visit: null,
-    id: 22,
+    id: 3,
   },
 ];
 

@@ -1,4 +1,3 @@
-import React from "react";
 
 import {
   BlogCard,
@@ -6,7 +5,6 @@ import {
   ExternalLinks,
   GridContainer,
   HeaderThree,
-  Hr,
   Tag,
   TagList,
   TitleContent,
@@ -19,6 +17,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import { FaGithub, FaRocket } from 'react-icons/fa';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -31,7 +30,6 @@ const Projects = () => (
             <Img src={p.image} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
@@ -47,12 +45,14 @@ const Projects = () => (
             <UtilityList>
               {p.visit && (
                 <ExternalLinks href={p.visit} target="_blank">
-                  Code
+                  <FaRocket size="2.4rem" />
+                  View  Live
                 </ExternalLinks>
               )}
               {p.source && (
                 <ExternalLinks href={p.source} target="_blank">
-                  Source
+                  <FaGithub size="2.4rem" />
+                  View Code
                 </ExternalLinks>
               )}
             </UtilityList>
