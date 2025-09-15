@@ -1,4 +1,3 @@
-import { DiFirebase, DiReact } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -13,54 +12,41 @@ import {
   ListTitle,
 } from "./TechnologiesStyles";
 
+import { FaDatabase, FaMobileAlt } from 'react-icons/fa';
+
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Blockchain
+      I've worked with a range a technologies in the information technologiy world.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <FaMobileAlt size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Mobile</ListTitle>
           <ListParagraph>
-            Experience with Next.js
-            <br />
-            React.js, Bootstrap, MaterialUi
-            <br />
-            Ant Design, HTML5, CSS3 <br />& JavaScript
+            Proficient with Flutter, Kotlin, Multi Platform, and Clean Architecture
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <FaDatabase size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with Node.js
-            <br />
-            Express.js, GraphQL, Nest.js
-            <br />
-            TypeScript, Microservices
-            <br />
-            Docker, PubSub, RabbitMQ
-            <br />
-            Prisma, Sequelize, MongoDB
-            <br />
-            MYSQL & Postgres
+            Basic with PHP, MySQL, and Hapi.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <FaBrain size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Blockchain</ListTitle>
@@ -70,7 +56,7 @@ const Technologies = () => (
             using Rust
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
     </List>
     <SectionDivider colorAlt />
   </Section>

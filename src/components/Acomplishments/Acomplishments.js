@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
   Section,
@@ -20,7 +20,6 @@ const Acomplishments = () => {
   useEffect(() => {
     (async () => {
       const { data: userData } = await getFollowers();
-      // console.log(userData);
       if (userData) {
         const newFollowers = data.map((obj) => {
           if (obj.text === "Github Followers") {

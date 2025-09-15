@@ -31,6 +31,17 @@ export const projects = [
     visit: null,
     id: 3,
   },
+  {
+    title: "PatriotMed",
+    description:
+      "PatriotMed is a digital healthcare application designed to make clinic visits more convenient and efficient. With its online booking and queue monitoring features, users can save valuable time and track their position in line in real time. The app also offers secure online payments, ensuring a hassle- free experience when booking and paying for services.In addition, the history feature provides safe and easy access to past bookings anytime, helping users make better - informed decisions about their health.",
+    image:
+      "images/patmed.png",
+    tags: ["Flutter", "GetX", "OCR", "Location and Maps", "Media and File", "Notification", "Background Service", "Payment Gateway"],
+    source: null,
+    visit: "https://play.google.com/store/apps/details?id=id.gvp.patriotmed&hl=en",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
@@ -40,19 +51,23 @@ export const TimeLineData = [
   },
   {
     year: 2021,
-    text: "Started as a freelance and onsite developer, embarking on my industry journey",
+    text: "Started learning the basics of programming and algorithms",
   },
   {
     year: 2022,
-    text: "I have learned and struggled a lot. Difficult times make a person stronger",
+    text: "Learned and struggled a lot. Difficult times make a person stronger",
   },
   {
     year: 2023,
-    text: "Completed my bachelors degree",
+    text: " Joined Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, and took the mobile development learning path. I also interned at PT Pyxis as a mobile developer",
   },
   {
     year: 2024,
-    text: "Focusing on backend development using Node.js and Solana blockchain.",
+    text: "Completed my bachelors degree and I got my first job",
+  },
+  {
+    year: 2025,
+    text: "Focusing on mobile development using Flutter",
   },
 ];
 
