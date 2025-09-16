@@ -12,7 +12,8 @@ import {
   ListTitle,
 } from "./TechnologiesStyles";
 
-import { FaDatabase, FaMobileAlt } from 'react-icons/fa';
+import { FcSmartphoneTablet, FcDatabase } from "react-icons/fc";
+import Image from "next/image";
 
 const Technologies = () => (
   <Section id="tech">
@@ -21,10 +22,18 @@ const Technologies = () => (
     <SectionText>
       I've worked with a range a technologies in the information technologiy world.
     </SectionText>
+
+    <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+      <Image src="/icons/android.svg" alt="android" width={40} height={40} />
+      <Image src="/icons/flutter.svg" alt="flutter" width={40} height={40} />
+      <Image src="/icons/dart.svg" alt="dart" width={40} height={40} />
+      <Image src="/icons/kotlin.svg" alt="kotlin" width={40} height={40} />
+    </div>
+
     <List>
       <ListItem>
         <picture>
-          <FaMobileAlt size="3rem" />
+          <FcSmartphoneTablet size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
@@ -35,7 +44,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <FaDatabase size="3rem" />
+          <FcDatabase size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
@@ -44,19 +53,6 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
-        <picture>
-          <FaBrain size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Blockchain</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Solana Blockchain <br />
-            using Rust
-          </ListParagraph>
-        </ListContainer>
-      </ListItem> */}
     </List>
     <SectionDivider colorAlt />
   </Section>
