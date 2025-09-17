@@ -7,7 +7,7 @@ import { LeftSection } from "./HeroStyles";
 import { FiverUrl, ResumeUrl, UpworkUrl } from "../../constants/constants";
 import LinkButton from "../../styles/GlobalComponents/LinkButton";
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>

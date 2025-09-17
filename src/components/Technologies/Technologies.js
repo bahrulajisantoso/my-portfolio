@@ -23,11 +23,33 @@ const Technologies = () => (
       I've worked with a range a technologies in the information technologiy world.
     </SectionText>
 
-    <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
-      <Image src="/icons/android.svg" alt="android" width={40} height={40} />
-      <Image src="/icons/flutter.svg" alt="flutter" width={40} height={40} />
-      <Image src="/icons/dart.svg" alt="dart" width={40} height={40} />
-      <Image src="/icons/kotlin.svg" alt="kotlin" width={40} height={40} />
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        columnGap: "2rem",
+        rowGap: "2rem",
+        alignItems: "center",
+      }}
+    >
+      <img src="/icons/android.svg" alt="android" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/apple.svg" alt="apple" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/flutter.svg" alt="flutter" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/materialdesign.svg" alt="material design" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/dart.svg" alt="dart" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/kotlin.svg" alt="kotlin" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/java.svg" alt="java" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/androidstudio.svg" alt="android studio" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/vscode.svg" alt="vs code" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/xcode.svg" alt="xcode" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/firebase.svg" alt="firebase" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/php.svg" alt="php" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/mysql.svg" alt="my sql" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/js.svg" alt="js" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/nodejs.svg" alt="node js" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/git.svg" alt="git" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/github.svg" alt="github" style={{ height: "72px", width: "auto" }} />
+      <img src="/icons/linux.svg" alt="linux" style={{ height: "72px", width: "auto" }} />
     </div>
 
     <List>
